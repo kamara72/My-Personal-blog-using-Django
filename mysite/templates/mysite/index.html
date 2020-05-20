@@ -1,0 +1,25 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-6 col-sm-6 p-3">
+            <h1 class="text-muted">About Me</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cum, laborum itaque eligendi, enim voluptates natus optio ipsa, soluta reiciendis voluptatum neque vitae blanditiis hic error similique fugit nostrum quo!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore modi sed ipsa laudantium aliquam repudiandae vitae? Excepturi iste doloribus nostrum? Quasi eos dolorem illo maxime necessitatibus ullam fuga illum quidem.
+            </p>
+            <h2 class="text-muted">Things you could benefit</h2>
+            <ol>
+                <li>C# Desktop and web development</li>
+                <li>Python Introduction</li>
+                <li>Python web development (Django and Flask)</li>
+                <li>PHP</li>
+                <li>Database (SQL, MySQL, SQlite)</li>
+            </ol>
+        </div>
+        <div class="col-md-6 col-sm-6 p-3">
+            <img src="{% static 'mysite/images/Bangalee.jpeg' %}" height="510" width="470" alt="" loading="lazy">
+        </div>
+    </div>
+{% endblock %}

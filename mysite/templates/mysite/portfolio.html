@@ -1,0 +1,28 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="card-deck" style="margin-top: 20px;">
+    <div class="card">
+      <img src="{% static 'mysite/images/bangalee.jpg' %}" class="card-img-top" alt="..." height="230">
+      <div class="card-body">
+        <h5 class="card-title">Bangalee Kamara Jr</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{% static 'mysite/images/noring.jpg' %}" class="card-img-top" alt="..." width="190" height="230">
+      <div class="card-body">
+        <h5 class="card-title">Emmanuel Fred Noring</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{% static 'mysite/images/maxam.jpg' %}" class="card-img-top" alt="..." width="190" height="230">
+      <div class="card-body">
+        <h5 class="card-title">Maxam Coopra</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}
